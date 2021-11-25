@@ -41,13 +41,15 @@ ul {
 h1 {
     font-size: 48px;
     color: whitesmoke;
-    font-weight: extra-bold;
+    font-weight: bolder;
+    margin-block-end: 0;
 }
 
 p {
     font-size: 18px;
     color: whitesmoke;
     font-weight: 200;
+    margin-right: 20px;
 }
 
 button {
@@ -59,14 +61,16 @@ button {
     font-size: 18px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 10%;
+    border-radius: 5px;
 }
 
 .main {
     width: 500px;
-    height: auto;
-    border-radius: 5%;
+    height: 300px;
+    border-radius: 25px;
     padding-left: 14px;
+    padding-top: 20px;
+    flex: 1;
 }
 
 .cont2 {
@@ -77,6 +81,11 @@ button {
     padding-right: 150px;
     padding-bottom: 50px;
     text-align: center;
+}
+
+h2 {
+    color:#18371bf0;
+    font-size: 32px;
 }
 
 .boxes {
@@ -93,21 +102,73 @@ img {
     border-radius: 5%;
 }
 
-
-
-
-
-
 .cont3 {
     background-color: #E5E7EB;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    font-weight:100;
+    color: #18371bf0;
+}
+
+.quote-credit {
+    text-align: right;
+    color: #18371bf0;
+    font-weight: bold;
 }
 
 .cont4 {
     background-color: whitesmoke;
+    padding: 20px;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+}
+
+.greenbox {
+    background-color: #269631;
+    border-radius: 25px;
+    padding: 20px;
+    padding-left: 80px;
+    margin: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cont4button {
+    border: whitesmoke;
+    border-width: 2px;
+    border-style: solid;
+    width: 120px;
+    height: auto;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+h3 {
+    font-size: 24px;
+    color: whitesmoke;
 }
 
 .footer {
     background-color: #18371bf0;
+    text-align: center;
+    padding: 20px;
 }
 
-
+.foottext {
+    font-size: 12px;
+}
